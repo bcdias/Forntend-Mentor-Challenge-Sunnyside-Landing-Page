@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+
+:root {
+  /* Cores primarias */
+  --vermelho-claro: hsl(7, 99%, 70%);
+  --amarelo: hsl(51, 100%, 49%);
+  --ciano-escuro: hsl(167, 40%, 24%); /* texto  "graphic design*/
+  --azul-escuro: hsl(198, 62%, 26%); /* tex photography */
+  --ciano-escuro-moderado: hsl(168, 34%, 41%); /* footer */
+
+  /* Cores neutras */
+  --azul-muito-escuro: hsl(212, 27%, 19%);
+  --azul-acinzentado-muit-escuro: hsl(213, 9%, 39%);
+  --azul-acinzentado-escuro: hsl(232, 10%, 55%);
+  --azul-acinzentado: hsl(210, 4%, 67%);
+  --branco: hsl(0, 0%, 100%);
+
+  /* fontes */
+  --fonte-principal: "Barlow", sans-serif;
+  --fonte-destaque: "Fraunces", serif;
+}
+
+body {
+  font-size: 18px;
+  font-family: var(--fonte-principal);
+}
+
+.text-color {
+  color: var(--branco);
+}
+
+.text-darkblue {
+  color: var(--azul-acinzentado-muit-escuro);
+}
+
+.fonte-destaque {
+  font-family: var(--fonte-destaque);
+}
+
+.header {
+  background-image: url(../images/mobile/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 1rem;
+  height: 100vh;
+  width: 100%;
+}
+.navbar-collapse-triangle {
+  position: absolute;
+  top: 44px;
+  left: calc(100% - 3.05rem);
+  width: 25px;
+  border-left: 50px;
+  border-left: 25px solid transparent;
+  border-bottom: 25px solid white;
+}
+
+.navbar-collapse {
+  margin-right: 0.75rem;
+  margin-top: 20px;
+  background-color: var(--branco);
+}
+
+.text-color {
+  color: var(--azul-acinzentado-escuro);
+}
+.navbar-toggler {
+  border-style: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
