@@ -10,6 +10,8 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
     <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/navbar-collapse.css">
+    <link rel="stylesheet" href="./assets/css/decoracao-texto-saiba-mais.css">
 
     <title>Frontend Mentor | Sunnyside agency landing page</title>
 
@@ -28,7 +30,7 @@
 
   <body>
     <header>
-      <div class="header px-2 py-5 ">
+      <div class="header-bg bg-alinhamento vh-100 w-100 px-2 py-5 ">
         <nav class="navbar navbar-expand-lg pt-4">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="./assets/images/logo.svg" alt="logo da Sunnyside"></a>
@@ -49,7 +51,7 @@
                   <a class="nav-link text-azul-acinzentado text-reset" href="#">Projects</a>
                 </li>
                 <li class="nav-item py-3">
-                  <a class="border rounded-pill nav-link py-3 px-4 botao-contato text-uppercase"
+                  <a class="border rounded-pill nav-link py-3 px-4 bg-amarelo texto-azul-escuro fonte-frauces text-uppercase fs-6"
                     href="#">Contact</a>
                 </li>
               </ul>
@@ -57,9 +59,9 @@
           </div>
         </nav>
       </div>
-      <div class="header-conteudo position-absolute d-flex flex-column align-items-center">
+      <div class="topo-200 position-absolute d-flex flex-column align-items-center">
         <div class="header-titulo">
-          <h1 class="estilo-destaques destaque-titulo pb-5 text-white text-center text-uppercase"> We are creatives</h1>
+          <h1 class="fonte-2rem espacamento-letras pb-5 text-white text-center text-uppercase fonte-frauces"> We are creatives</h1>
         </div>
         <div class="header-img">
           <img src="./assets/images/icon-arrow-down.svg" alt="seta para baixo" class="header-img-seta mt-5">
@@ -68,48 +70,49 @@
     </header>
     <main>
 
-      <section class="transforme">
-        <div class="transforme-img"></div>
-        <div class="transforme-conteudo">
-          <h2 class="transforme-titulo estilo-destaques">Transform your brand</h2>
-          <p class="transforme-texto">
-            We are a full-service creative agency specializing in helping brands grow fast.
-            Engage your clients through compelling visuals that do most of the marketing for you.
-            We are a full-service creative agency specializing in helping brands grow fast.
-            Engage your clients through compelling visuals that do most of the marketing for you.
-          </p>
-          <a href="#" class="transforme-chamada estilo-destaques">Learn more</a>
+      <section>
+        <div class="transforme vh-100">
+          <div class="transforme-img bg-alinhamento h-50"></div>
+          <div class=" d-flex flex-column align-items-center justify-content-around px-4 mt-3 h-50">
+            <h2 class=" texto-azul-escuro fonte-frauces fonte-2rem text-center fw-900">Transform your brand</h2>
+            <p class="transforme-texto text-center">
+              We are a full-service creative agency specializing in helping brands grow fast.
+              Engage your clients through compelling visuals that do most of the marketing for you.
+            </p>
+              <a href="#" class=" texto-azul-escuro fonte-frauces fs-6 text-uppercase text-decoration-none">Learn more</a>
+              <div class="decoracao-texto-saiba-mais position-relative"></div>
+          </div>
         </div>
       </section>
 
-      <section class="destacar">
-        <div class="destacar-img"></div>
-        <div class="destacar-conteudo">
-          <h2 class="destacar-titulo estilo-destaques">Stand out to the right audience</h2>
-          <p class="destacar-texto">
+      <section class="destacar vh-100">
+        <div class="destacar-img bg-alinhamento h-50"></div>
+        <div class="d-flex flex-column align-items-center justify-content-around px-4 mt-3 h-50">
+          <h2 class="texto-azul-escuro fonte-frauces fonte-2rem text-center fw-900">Stand out to the right audience</h2>
+          <p class="destacar-texto text-center">
             Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
-            build
-            and extend your brand in digital places..
+            build and extend your brand in digital places.
           </p>
-          <a href="#" class="destacar-chamada estilo-destaques">Learn more</a>
+          <a href="#" class="texto-azul-escuro fonte-frauces fs-6 text-uppercase text-decoration-none">Learn more</a>
+          <div class="decoracao-texto-saiba-mais position-relative"></div>
         </div>
       </section>
 
       <section class="visual">
-        <div class="visual-design">
-          <div class="design-conteudo">
-            <h2 class="design-titulo estilo-destaques">Graphic design</h2>
-            <p class="design-texto">
+        <div class="design-img bg-alinhamento vh-100 d-flex flex-column justify-content-end">
+          <div class="design-conteudo d-flex flex-column align-items-center justify-content-end px-1 h-50">
+            <h2 class="fonte-frauces fs-1 texto-ciano-escuro">Graphic design</h2>
+            <p class="texto-ciano-escuro text-center py-4">
               Great design makes you memorable. We deliver artwork that underscores your brand message and captures
               potential
               clients’ attention.
             </p>
           </div>
         </div>
-        <div class="visual-fotografia">
-          <div class="fotografia-conteudo">
-            <h2 class="fotografia-titulo estilo-destaques">Photography</h2>
-            <p class="fotografia-texto">
+        <div class="fotografia-img bg-alinhamento vh-100 d-flex flex-column justify-content-end">
+          <div class="fotografia-conteudo d-flex flex-column align-items-center justify-content-end px-4 h-50">
+            <h2 class="fs-1 fonte-frauces texto-azul-escuro">Photography</h2>
+            <p class="texto-azul-escuro fotografia-texto text-center py-4">
               Increase your credibility by getting the most stunning, high-quality photos that improve your business
               image.
             </p>

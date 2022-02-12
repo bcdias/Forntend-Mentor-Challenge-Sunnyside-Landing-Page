@@ -1,0 +1,11 @@
+.decoracao-texto-saiba-mais{
+    border-radius: 5px;
+    bottom: 25px;
+    background-color: hsl(51, 100%, 90%);
+    width: 43%;
+    height: 3%;
+    z-index: -1;
+  }
+  .destacar div .decoracao-texto-saiba-mais{
+    background-color: hsl(7, 99%, 95%);
+  }

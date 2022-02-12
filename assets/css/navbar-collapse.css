@@ -1,0 +1,15 @@
+.navbar-toggler:focus {
+    box-shadow: none;
+  }
+ .navbar-collapse-triangulo {
+   top: 88px;
+   left: calc(100% - 3.05rem);
+   width: 25px;
+   border-left: 50px;
+   border-left: 25px solid transparent;
+   border-bottom: 25px solid white;
+ }
+ .navbar-collapse {
+   margin-right: 0.75rem;
+   z-index: 1;
+ }
