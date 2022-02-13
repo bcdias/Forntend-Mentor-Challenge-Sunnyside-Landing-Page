@@ -1,10 +1,11 @@
 .decoracao-texto-saiba-mais{
+    position: relative;
     border-radius: 5px;
-    bottom: 45px;
     background-color: hsl(51, 100%, 90%);
-    width: 43%;
-    height: 3%;
+    height: 10px;
+    width: 150px;
     z-index: -1;
+    bottom: 10px;
   }
   .destacar div .decoracao-texto-saiba-mais{
     background-color: hsl(7, 99%, 95%);
