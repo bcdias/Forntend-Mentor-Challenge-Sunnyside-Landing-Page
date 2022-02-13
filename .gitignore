@@ -16,4 +16,8 @@
 .prettierignore
 
 # Avoid lib bootstra-icons
-.node_modules
+node_modules
+
+
+# Avoid gitgnore
+.gitgnore
