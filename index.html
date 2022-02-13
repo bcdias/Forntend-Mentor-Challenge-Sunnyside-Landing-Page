@@ -30,15 +30,15 @@
 
   <body>
     <header>
-      <div class="header-bg bg-alinhamento vh-100 w-100 px-2 py-5 ">
+      <div class="header-bg bg-alinhamento vh-100 w-100 px-2 py-2 ">
         <nav class="navbar navbar-expand-lg pt-4">
-          <div class="container-fluid">
+          <div class="container-fluid py-3">
             <a class="navbar-brand" href="#"><img src="./assets/images/logo.svg" alt="logo da Sunnyside"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span><img src="./assets/images/icon-hamburger.svg" alt=""></span>
             </button>
-            <div class="justify-content-end collapse navbar-collapse mt-5 bg-white" id="navbarNav">
+            <div class="justify-content-end collapse navbar-collapse py-2 mt-5 bg-white" id="navbarNav">
               <div class="navbar-collapse-triangulo position-absolute"></div>
               <ul class="navbar-nav align-items-center py-3">
                 <li class="nav-item py-3">
@@ -61,7 +61,7 @@
       </div>
       <div class="topo-200 position-absolute d-flex flex-column align-items-center">
         <div class="header-titulo">
-          <h1 class="fonte-2rem espacamento-letras pb-5 text-white text-center text-uppercase fonte-frauces"> We are creatives</h1>
+          <h1 class="fonte-3rem espacamento-letras pb-5 text-white text-center text-uppercase fonte-frauces"> We are creatives</h1>
         </div>
         <div class="header-img">
           <img src="./assets/images/icon-arrow-down.svg" alt="seta para baixo" class="header-img-seta mt-5">
@@ -73,7 +73,7 @@
       <section>
         <div class="transforme vh-100">
           <div class="transforme-img bg-alinhamento h-50"></div>
-          <div class=" d-flex flex-column align-items-center justify-content-around px-4 h-50">
+          <div class=" d-flex flex-column align-items-center justify-content-around px-4 py-5 h-50">
             <h2 class="texto-azul-escuro fonte-frauces fonte-2rem text-center fw-900">Transform your brand</h2>
             <p class="text-center">
               We are a full-service creative agency specializing in helping brands grow fast.
@@ -89,7 +89,7 @@
 
       <section class="destacar vh-100">
         <div class="destacar-img bg-alinhamento h-50"></div>
-        <div class="d-flex flex-column align-items-center justify-content-around px-4 h-50">
+        <div class="d-flex flex-column align-items-center justify-content-around px-4 py-5 h-50">
           <h2 class="texto-azul-escuro fonte-frauces fonte-2rem text-center fw-900">Stand out to the right audience</h2>
           <p class="text-center">
             Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
@@ -124,44 +124,43 @@
         </div>
       </section>
 
-      <section class="depoimentos">
-        <h2 class="depoimento-titulo estilo-destaques">Client testimonials</h2>
-        <div class="cliente">
-          <div class="cliente">
-
-            <div class="cliente-img"></div>
-            <p class="cliente-depoimento">
-              We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always
-              hit.
-            </p>
-            <span class="cliente-nome estilo-destaques">Emily R.</span>
-            <span class="cliente-profissao">Marketing Director</span>
-          </div>
-
-          <div class="cliente-img"></div>
-          <p class="cliente-depoimento">
+      <section class="depoimentos text-azul-acinzentado fw-900 d-flex flex-column align-items-center py-5">
+        <h3 class=" fs-6 espacamento-letras fonte-frauces text-uppercase">Client testimonials</h3>
+        
+        <div class="cliente h-50 d-flex flex-column align-items-center">
+          <div class="cliente-img bg-alinhamento img-emily mt-5 mb-4"></div>
+          <p class="text-center px-4 texto-azul-muito-escuro">
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always
+            hit.
+          </p>
+          <span class="fonte-frauces texto-azul-escuro fs-5">Emily R.</span>
+          <span class="py-2 fs-6">Marketing Director</span>
+        </div>
+        <div class="cliente h-50 d-flex flex-column align-items-center">
+          <div class="cliente-img bg-alinhamento img-thomas mt-5 mb-4"></div>
+          <p class="text-center px-4 texto-azul-muito-escuro">
             Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
             enjoyable experience.
           </p>
-          <span class="cliente-nome estilo-destaques">Thomas S.</span>
-          <span class="cliente-profissao">Chief Operating Officer</span>
+          <span class="fonte-frauces texto-azul-escuro fs-5">Thomas S.</span>
+          <span class="py-2 fs-6">Chief Operating Officer</span>
         </div>
 
-        <div class="cliente">
-          <div class="cliente-img"></div>
-          <p class="cliente-depoimento">
+        <div class="cliente h-50 d-flex flex-column align-items-center">
+          <div class="cliente-img bg-alinhamento img-jennie mt-5 mb-4"></div>
+          <p class="text-center px-4 texto-azul-muito-escuro">
             Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
           </p>
-          <span class="cliente-nome estilo-destaques">Jennie F.</span>
-          <span class="cliente-profissao">business Owner</span>
+          <span class="fonte-frauces texto-azul-escuro fs-5">Jennie F.</span>
+          <span class="py-2 fs-6">business Owner</span>
         </div>
       </section>
 
-      <div class="imagens">
-        <div class="imagem-ilustrativa"></div>
-        <div class="imagem-ilustrativa"></div>
-        <div class="imagem-ilustrativa"></div>
-        <div class="imagem-ilustrativa"></div>
+      <div class="imagens d-flex flex-wrap vh-50">
+        <div class="imagem-leite w-50 h-50 bg-alinhamento"></div>
+        <div class="imagem-laranja w-50 h-50 bg-alinhamento"></div>
+        <div class="imagem-cone w-50 h-50 bg-alinhamento"></div>
+        <div class="imagem-acucar w-50 h50 bg-alinhamento"></div>
       </div>
     </main>
     <footer>

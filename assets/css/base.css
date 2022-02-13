@@ -8,7 +8,7 @@
 
   /* Cores neutras */
   --azul-muito-escuro: hsl(212, 27%, 19%);
-  --azul-acinzentado-muito-escuro: hsl(213, 9%, 39%);
+  --azul-acinzentado-muito-escuro: 
 }
 
 /* Estilo global */
@@ -26,14 +26,17 @@ body {
 .fw-900{
   font-weight: 900;
 }
+.texto-azul-muito-escuro{
+  color: hsl(213, 9%, 39%);
+}
 .texto-azul-escuro{
   color: hsl(198, 62%, 26%); /* tex photography */
 }
 .texto-azul-escuro:hover{
   color: hsl(198, 62%, 26%); /* tex photography */
 }
- .fonte-2rem{
-   font-size: 2rem;
+ .fonte-3rem{
+   font-size: 3rem;
  }
 
  .bg-alinhamento{
@@ -53,10 +56,13 @@ body {
    background-color: hsl(51, 100%, 49%);
  }
  .topo-200 {
-     top: 200px;
+     top: 10rem;
  }
  .espacamento-letras{
-     letter-spacing: .5rem;
+     letter-spacing: .2rem;
+ }
+ .depoimentos h3 .espacamento-letras {
+     letter-spacing: .1rem;
  }
  .transforme-img{
    background-image: url(../images/mobile/image-transform.jpg);
@@ -73,4 +79,32 @@ body {
 .texto-ciano-escuro{
   color:  hsl(167, 40%, 24%);
 }
-
+.cliente-img {
+  border-radius: 50px;
+  height: 70px;
+  width: 70px;
+}
+.img-emily{
+  background-image: url(../images/image-emily.jpg);
+}
+.img-thomas{
+  background-image: url(../images/image-thomas.jpg);
+}
+.img-jennie{
+  background-image: url(../images/image-jennie.jpg);
+}
+.vh-50{
+  height: 50vh;
+}
+.imagem-leite{
+  background-image: url(../images/mobile/image-gallery-milkbottles.jpg);
+} 
+.imagem-laranja{
+  background-image: url(../images/mobile/image-gallery-orange.jpg);
+} 
+.imagem-cone{
+  background-image: url(../images/mobile/image-gallery-cone.jpg);
+} 
+.imagem-acucar{
+  background-image: url(../images/mobile/image-gallery-sugar-cubes.jpg);
+} 
