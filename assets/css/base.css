@@ -2,13 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
 
 :root {
-  /* Cores primarias */
   --vermelho-claro: hsl(7, 99%, 70%);
-  --ciano-escuro-moderado: hsl(168, 34%, 41%); /* footer */
-
-  /* Cores neutras */
   --azul-muito-escuro: hsl(212, 27%, 19%);
-  --azul-acinzentado-muito-escuro: ;
+  --amarelo:  hsl(51, 100%, 49%);
 }
 
 /* Estilo global */
@@ -119,4 +115,15 @@ body {
 }
 .logo-footer-tamanho{
   height: 2.3rem;
+}
+
+/* Estilo do footer do Frontend-Mentor*/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
