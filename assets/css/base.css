@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+@import url(./background.css);
+@import url(./textos.css);
+@import url(./posicionamento.css);
 
 :root {
   --vermelho-claro: hsl(7, 99%, 70%);
@@ -10,111 +13,8 @@
 /* Estilo global */
 body {
   color: hsl(232, 10%, 55%);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: "Barlow", sans-serif;
-}
-
-
-/* Background */
-.bg-ciano-moderado{
-  background-color:#66c2ae;
-}
-.bg-amarelo {
-  background-color: hsl(51, 100%, 49%);
-}
-.header-bg {
-  background-image: url(../images/mobile/image-header.jpg);
-}
-.transforme-img {
-  background-image: url(../images/mobile/image-transform.jpg);
-}
-.destacar-img {
-  background-image: url(../images/mobile/image-stand-out.jpg);
-}
-.design-img {
-  background-image: url(../images/mobile/image-graphic-design.jpg);
-}
-.fotografia-img {
-  background-image: url(../images/mobile/image-photography.jpg);
-}
-.img-thomas {
-  background-image: url(../images/image-thomas.jpg);
-}
-.img-jennie {
-  background-image: url(../images/image-jennie.jpg);
-}
-.imagem-leite {
-  background-image: url(../images/mobile/image-gallery-milkbottles.jpg);
-}
-.imagem-laranja {
-  background-image: url(../images/mobile/image-gallery-orange.jpg);
-}
-.imagem-cone {
-  background-image: url(../images/mobile/image-gallery-cone.jpg);
-}
-.imagem-acucar {
-  background-image: url(../images/mobile/image-gallery-sugar-cubes.jpg);
-}
-.img-emily {
-  background-image: url(../images/image-emily.jpg);
-}
-
-
-/* Texto */
-.fonte-frauces {
-  font-family: "Fraunces", serif;
-}
-.fw-900 {
-  font-weight: 900;
-}
-.texto-azul-muito-escuro {
-  color: hsl(213, 9%, 39%);
-}
-.texto-azul-escuro {
-  color: hsl(198, 62%, 26%); /* tex photography */
-}
-.texto-azul-escuro:hover {
-  color: hsl(198, 62%, 26%); /* tex photography */
-}
-.fonte-3rem {
-  font-size: 3rem;
-}
-.text-azul-acinzentado {
-  color: hsl(210, 4%, 67%);
-}
-.texto-ciano-escuro {
-  color: hsl(167, 40%, 24%);
-}
-.texto-ciano-escuro:hover {
-  color: hsl(167, 40%, 24%);
-}
-
-
-/* Posicionamento*/
-.bg-alinhamento {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.topo-200 {
-  top: 10rem;
-}
-.espacamento-letras {
-  letter-spacing: 0.2rem;
-}
-.depoimentos h3 .espacamento-letras {
-  letter-spacing: 0.1rem;
-}
-.cliente-img {
-  border-radius: 50px;
-  height: 70px;
-  width: 70px;
-}
-.vh-50 {
-  height: 50vh;
-}
-.logo-footer-tamanho{
-  height: 2.3rem;
 }
 
 /* Estilo do footer do Frontend-Mentor*/
@@ -122,8 +22,4 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }

@@ -1,12 +1,19 @@
 .decoracao-texto-saiba-mais{
-    position: relative;
     border-radius: 5px;
     background-color: hsl(51, 100%, 90%);
     height: 10px;
     width: 130px;
-    z-index: -1;
-    bottom: 10px;
   }
+.decoracao-texto-saiba-mais:hover{
+    background-color: hsl(51, 100%, 49% );
+    transition:0.4s; 
+  }
+
   .destacar div .decoracao-texto-saiba-mais{
     background-color: hsl(7, 99%, 95%);
   }
+  .destacar div .decoracao-texto-saiba-mais:hover{
+    background-color: hsl(7, 99%, 70%);
+  }
+
+  

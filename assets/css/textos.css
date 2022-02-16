@@ -1,0 +1,44 @@
+
+/* Texto */
+  .fonte-frauces {
+    font-family: "Fraunces", serif;
+  }
+  .fw-900 {
+    font-weight: 900;
+  }
+  .texto-azul-muito-escuro {
+    color: hsl(213, 9%, 39%);
+  }
+  .texto-azul-escuro {
+    color: hsl(212, 27%, 19%); /* tex photography */
+  }
+  .texto-azul-escuro:hover {
+    color: hsl(212, 27%, 19%); /* tex photography */
+  }
+  .text-azul-acinzentado {
+    color: hsl(210, 4%, 67%);
+  }
+  .texto-ciano-escuro {
+    color: hsl(167, 40%, 24%);
+  }
+  .texto-ciano-escuro:hover {
+    color: hsl(167, 40%, 24%);
+  }
+  .espacamento-letras {
+    letter-spacing: 0.3rem;
+  }
+
+  @media screen and (min-width: 510px) {
+    
+    .espacamento-letras {
+      letter-spacing: 0.2rem;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    
+      .texto-branco{
+        color: white !important;
+      }   
+    
+  }

@@ -1,0 +1,67 @@
+/* Posicionamento*/
+
+  .b-15{
+    bottom: 15px;
+  }
+  .topo-alinhamento {
+    top: 10rem;
+  }
+  
+  .depoimentos h3 .espacamento-letras {
+    letter-spacing: 0.1rem;
+  }
+  .cliente-img {
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+  }
+  .vh-50 {
+    height: 50vh;
+  }
+  .logo-footer-tamanho{
+    height: 2.3rem;
+  }
+  @media screen and (min-width: 547px) {
+   
+    .topo-alinhamento {
+      top: 8rem;
+    }
+   
+  }
+  @media screen and (min-width: 768px) {
+     .comprimento{
+       width: 70%;
+     }
+     .w-33{
+       width: 33.33%;
+     }
+     .altura{
+       height: 100vh !important;
+     }
+     .cliente-img {
+      border-radius: 90px;
+      height: 140px;
+      width: 140px;
+    }
+    .w-md-50{
+      width: 50%;
+    }
+   
+  }
+@media screen and (min-width: 992px) {
+  .mt-5{
+    margin: 0 !important;
+  }
+  .w-lg-85{
+    width: 85%;
+  }
+  .cliente-img {
+    border-radius: 200px;
+    height: 240px;
+    width: 240px;
+  }
+}
+@media screen and (min-width: 1140px) {
+  
+}
+

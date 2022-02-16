@@ -1,0 +1,96 @@
+/* Background */
+.bg-ciano-moderado {
+  background-color: #66c2ae;
+}
+.bg-amarelo {
+  background-color: hsl(51, 100%, 49%);
+}
+.header-bg {
+  background-image: url(../images/mobile/image-header.jpg);
+}
+.transforme-img {
+  background-image: url(../images/mobile/image-transform.jpg);
+}
+.destacar-img {
+  background-image: url(../images/mobile/image-stand-out.jpg);
+}
+.design-img {
+  background-image: url(../images/mobile/image-graphic-design.jpg);
+}
+.fotografia-img {
+  background-image: url(../images/mobile/image-photography.jpg);
+}
+.img-thomas {
+  background-image: url(../images/image-thomas.jpg);
+}
+.img-jennie {
+  background-image: url(../images/image-jennie.jpg);
+}
+.img-emily {
+  background-image: url(../images/image-emily.jpg);
+}
+.imagem-leite {
+  background-image: url(../images/mobile/image-gallery-milkbottles.jpg);
+}
+.imagem-laranja {
+  background-image: url(../images/mobile/image-gallery-orange.jpg);
+}
+.imagem-cone {
+  background-image: url(../images/mobile/image-gallery-cone.jpg);
+}
+.imagem-acucar {
+  background-image: url(../images/mobile/image-gallery-sugar-cubes.jpg);
+}
+.bg-alinhamento {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Desktop Layout */
+@media screen and (min-width: 547px) {
+  .header-bg {
+    background-image: url(../images/desktop/image-header.jpg);
+  }
+  .transforme-img {
+    background-image: url(../images/desktop/image-transform.jpg);
+  }
+  .destacar-img {
+    background-image: url(../images/desktop/image-stand-out.jpg);
+  }
+  .design-img {
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+  }
+  .fotografia-img {
+    background-image: url(../images/desktop/image-photography.jpg);
+  }
+  .imagem-leite {
+    background-image: url(../images/desktop/image-gallery-milkbottles.jpg);
+  }
+  .imagem-laranja {
+    background-image: url(../images/desktop/image-gallery-orange.jpg);
+  }
+  .imagem-cone {
+    background-image: url(../images/desktop/image-gallery-cone.jpg);
+  }
+  .imagem-acucar {
+    background-image: url(../images/desktop/image-gallery-sugarcubes.jpg);
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  .bg-white{
+    background-color:transparent !important;
+  }  
+  .contado-desktop{
+    border-style:none !important;
+    background-color: white;
+  }
+  .contado-desktop:hover{
+    background-color: rgb(255, 255, 255, 0.4);
+    border-style:none !important;
+    color: white !important;
+    transition: 0.4s;
+  }
+}

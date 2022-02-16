@@ -17,29 +17,29 @@
   </head>
 
   <body>
-    <header>
+    <header class="d-flex flex-column align-items-center">
       <div class="header-bg bg-alinhamento vh-100 w-100 px-2 py-2 ">
-        <nav class="navbar navbar-expand-lg pt-4">
+        <nav class="navbar navbar-expand-lg px-md-5 pt-lg-0 pt-4">
           <div class="container-fluid py-3">
             <a class="navbar-brand" href="#"><img src="./assets/images/logo.svg" alt="logo da Sunnyside"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span><img src="./assets/images/icon-hamburger.svg" alt=""></span>
             </button>
-            <div class="justify-content-end collapse navbar-collapse py-2 mt-5 bg-white" id="navbarNav">
+            <div class=" justify-content-end collapse navbar-collapse py-2 mt-5 bg-white" id="navbarNav">
               <div class="navbar-collapse-triangulo position-absolute"></div>
               <ul class="navbar-nav align-items-center py-3">
                 <li class="nav-item py-3">
-                  <a class="nav-link text-azul-acinzentado text-reset" href="#">About</a>
+                  <a class="nav-link text-azul-acinzentado texto-branco text-reset" href="#">About</a>
                 </li>
-                <li class="nav-item py-3">
-                  <a class="nav-link text-azul-acinzentado text-reset" href="#">Services</a>
+                <li class="nav-item ps-lg-4 py-3">
+                  <a class="nav-link text-azul-acinzentado texto-branco text-reset" href="#">Services</a>
                 </li>
-                <li class="nav-item py-3">
-                  <a class="nav-link text-azul-acinzentado text-reset" href="#">Projects</a>
+                <li class="nav-item ps-lg-4 py-3">
+                  <a class="nav-link text-azul-acinzentado texto-branco text-reset" href="#">Projects</a>
                 </li>
-                <li class="nav-item py-3">
-                  <a class="border rounded-pill nav-link py-3 px-4 bg-amarelo texto-azul-escuro fonte-frauces text-uppercase fs-6"
+                <li class="nav-item ps-lg-4 py-3">
+                  <a class="border rounded-pill nav-link nav-link-conteudo py-2 px-3 bg-amarelo contado-desktop texto-azul-escuro fonte-frauces text-uppercase fs-6"
                     href="#">Contact</a>
                 </li>
               </ul>
@@ -47,64 +47,70 @@
           </div>
         </nav>
       </div>
-      <div class="topo-200 position-absolute d-flex flex-column align-items-center">
-        <div class="header-titulo">
-          <h1 class="fonte-3rem espacamento-letras pb-5 text-white text-center text-uppercase fonte-frauces"> We are creatives</h1>
+      <div class="position-absolute topo-alinhamento d-flex flex-column align-items-center mt-4">
+        <div>
+          <h1 class="display-3 espacamento-letras pb-5 text-white text-center text-uppercase fonte-frauces"> We are creatives</h1>
         </div>
         <div class="header-img">
-          <img src="./assets/images/icon-arrow-down.svg" alt="seta para baixo" class="header-img-seta mt-5">
+          <img src="./assets/images/icon-arrow-down.svg" alt="seta para baixo" class="header-img-seta mt-4">
         </div>
       </div>
     </header>
     <main>
 
       <section>
-        <div class="transforme vh-100">
-          <div class="transforme-img bg-alinhamento h-50"></div>
-          <div class=" d-flex flex-column align-items-center justify-content-around px-4 py-5 h-50">
-            <h2 class="texto-azul-escuro fonte-frauces fonte-2rem text-center fw-900">Transform your brand</h2>
-            <p class="text-center">
+        
+        <div class="d-flex flex-column flex-md-row-reverse altura vh-100">
+          <div class="transforme-img bg-alinhamento comprimento h-100"></div>
+          <div class="d-flex justify-content-around comprimento">
+          <div class="d-flex flex-column align-items-md-start align-items-center justify-content-around comprimento px-4 py-5 h-100">
+            <h2 class=" text-md-start texto-azul-escuro fonte-frauces display-5 text-center  fw-900">Transform your brand</h2>
+            <p class="text-center text-md-start">
               We are a full-service creative agency specializing in helping brands grow fast.
               Engage your clients through compelling visuals that do most of the marketing for you.
             </p>
             <div class="d-flex flex-column align-items-center">
-              <a href="#" class="texto-azul-escuro fonte-frauces fs-6 text-uppercase text-decoration-none">Learn more</a>
-              <div class="decoracao-texto-saiba-mais"></div>
+              <div class="text-center decoracao-texto-saiba-mais">
+                <a href="#" class="b-15 texto-azul-escuro fonte-frauces position-relative fs-6 text-uppercase text-decoration-none">Learn more</a>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="destacar vh-100">
-        <div class="destacar-img bg-alinhamento h-50"></div>
-        <div class="d-flex flex-column align-items-center justify-content-around px-4 py-5 h-50">
-          <h2 class="texto-azul-escuro fonte-frauces fonte-2rem text-center fw-900">Stand out to the right audience</h2>
-          <p class="text-center">
-            Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
-            build and extend your brand in digital places.
-          </p>
-          <div class="d-flex flex-column align-items-center">
-            <a href="#" class="texto-azul-escuro fonte-frauces fs-6 text-uppercase text-decoration-none">Learn more</a>
-            <div class="decoracao-texto-saiba-mais"></div>
+      <section class="destacar d-flex flex-column flex-md-row altura vh-100">
+        <div class="destacar-img bg-alinhamento comprimento h-100"></div>
+        <div class="d-flex justify-content-around comprimento">
+          <div class="d-flex flex-column align-items-md-start align-items-center justify-content-around comprimento py-5 h-100">
+            <h2 class="texto-azul-escuro fonte-frauces display-5 text-md-start text-center fw-900">Stand out to the right audience</h2>
+            <p class="text-center text-md-start">
+              Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
+              build and extend your brand in digital places.
+            </p>
+            <div class="d-flex flex-column align-items-center">
+              <div class="text-center decoracao-texto-saiba-mais">
+                <a href="#" class="b-15 texto-azul-escuro fonte-frauces position-relative fs-6 text-uppercase text-decoration-none">Learn more</a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="visual">
-        <div class="design-img bg-alinhamento vh-100 d-flex flex-column justify-content-end">
-          <div class="design-conteudo d-flex flex-column align-items-center justify-content-end px-1 h-50">
+      <section class="d-flex flex-column flex-md-row">
+        <div class="design-img bg-alinhamento vh-100 d-flex flex-column justify-content-end w-md-50">
+          <div class="d-flex flex-column align-items-center justify-content-end px-1 px-xl-4 h-50">
             <h2 class="fonte-frauces fs-1 texto-ciano-escuro">Graphic design</h2>
-            <p class="texto-ciano-escuro text-center py-4">
+            <p class="texto-ciano-escuro text-center px-lg-5 py-3">
               Great design makes you memorable. We deliver artwork that underscores your brand message and captures
               potential
               clients’ attention.
             </p>
           </div>
         </div>
-        <div class="fotografia-img bg-alinhamento vh-100 d-flex flex-column justify-content-end">
-          <div class="fotografia-conteudo d-flex flex-column align-items-center justify-content-end px-4 h-50">
+        <div class="fotografia-img bg-alinhamento vh-100 d-flex flex-column w-md-50 justify-content-end">
+          <div class="d-flex flex-column align-items-center justify-content-end px-1 px-xl-4 h-50">
             <h2 class="fs-1 fonte-frauces texto-azul-escuro">Photography</h2>
-            <p class="texto-azul-escuro fotografia-texto text-center py-4">
+            <p class="texto-azul-escuro text-center px-lg-5 py-3">
               Increase your credibility by getting the most stunning, high-quality photos that improve your business
               image.
             </p>
@@ -112,43 +118,56 @@
         </div>
       </section>
 
-      <section class="depoimentos text-azul-acinzentado fw-900 d-flex flex-column align-items-center py-5">
+      <section class="text-azul-acinzentado altura fw-900 justify-content-around d-flex flex-column align-items-center py-5">
         <h3 class=" fs-6 espacamento-letras fonte-frauces text-uppercase">Client testimonials</h3>
-        
-        <div class="cliente h-50 d-flex flex-column align-items-center">
-          <div class="cliente-img bg-alinhamento img-emily mt-5 mb-4"></div>
-          <p class="text-center px-4 texto-azul-muito-escuro">
-            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always
-            hit.
-          </p>
-          <span class="fonte-frauces texto-azul-escuro fs-5">Emily R.</span>
-          <span class="py-2 fs-6">Marketing Director</span>
-        </div>
-        <div class="cliente h-50 d-flex flex-column align-items-center">
-          <div class="cliente-img bg-alinhamento img-thomas mt-5 mb-4"></div>
-          <p class="text-center px-4 texto-azul-muito-escuro">
-            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
-            enjoyable experience.
-          </p>
-          <span class="fonte-frauces texto-azul-escuro fs-5">Thomas S.</span>
-          <span class="py-2 fs-6">Chief Operating Officer</span>
-        </div>
+        <div class="h-100 d-flex flex-column flex-md-row w-100">
 
-        <div class="cliente h-50 d-flex flex-column align-items-center">
-          <div class="cliente-img bg-alinhamento img-jennie mt-5 mb-4"></div>
-          <p class="text-center px-4 texto-azul-muito-escuro">
-            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-          </p>
-          <span class="fonte-frauces texto-azul-escuro fs-5">Jennie F.</span>
-          <span class="py-2 fs-6">business Owner</span>
+          <div class="h-100 d-flex flex-column align-items-center justify-content-around w-33">
+            <div class="cliente-img bg-alinhamento img-emily mt-5 mt-md-0 mb-4"></div>
+            <div class="d-flex flex-column align-items-center">
+              <p class="text-center fs-6 px-3 texto-azul-muito-escuro">
+                We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always
+                hit.
+              </p>
+              <span class="fonte-frauces texto-azul-escuro 6">Emily R.</span>
+              <span class="py-2 fs-6">Marketing Director</span>
+            </div>
+          </div>
+
+          <div class="h-100 d-flex flex-column align-items-center justify-content-around w-33">
+            <div class="cliente-img bg-alinhamento img-thomas mt-5  mt-md-0 mb-4"></div>
+            <div class="d-flex flex-column align-items-center">
+              <p class="text-center fs-6 px-3 px-md-0 texto-azul-muito-escuro">
+                Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
+                enjoyable experience.
+              </p>
+              <span class="fonte-frauces texto-azul-escuro fs-5">Thomas S.</span>
+              <span class="py-2 fs-6">Chief Operating Officer</span>
+            </div>
+          </div>
+  
+          <div class="h-100 d-flex flex-column align-items-center justify-content-around w-33">
+            <div class="cliente-img bg-alinhamento img-jennie mt-5  mt-md-0 mb-4"></div>
+            <div class="d-flex flex-column align-items-center">
+              <p class="text-center fs-6 px-3 texto-azul-muito-escuro">
+                Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+              </p>
+              <span class="fonte-frauces texto-azul-escuro fs-5">Jennie F.</span>
+              <span class="py-2 fs-6">business Owner</span>
+            </div>
+          </div>
         </div>
       </section>
 
-      <div class="imagens d-flex flex-wrap vh-50">
-        <div class="imagem-leite w-50 h-50 bg-alinhamento"></div>
-        <div class="imagem-laranja w-50 h-50 bg-alinhamento"></div>
-        <div class="imagem-cone w-50 h-50 bg-alinhamento"></div>
-        <div class="imagem-acucar w-50 h50 bg-alinhamento"></div>
+      <div class="d-flex flex-column flex-md-row vh-50">
+        <div class="d-flex w-100 h-100">
+          <div class="imagem-leite w-50 h-100 bg-alinhamento"></div>
+          <div class="imagem-laranja w-50 h-100 bg-alinhamento"></div>
+        </div>
+        <div class="d-flex w-100 h-100">
+          <div class="imagem-cone w-50 h-100 bg-alinhamento"></div>
+          <div class="imagem-acucar w-50 100 bg-alinhamento"></div>
+        </div>
       </div>
     </main>
     <footer class="d-flex flex-column justify-content-around align-items-center vh-50 bg-ciano-moderado">
