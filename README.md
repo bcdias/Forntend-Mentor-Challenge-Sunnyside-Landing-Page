@@ -6,13 +6,13 @@ Essa é a minha solução para o challenge [Sunnyside agency landing page challe
 
   - [Visão Geral](#visão-geral)
   - [O challenge](#o-challenge)
-  - [imagem](#imagem)
+  - [Imagem](#imagem)
   - [Links](#links)
   - [Meus processos](#meus-processos)
   - [Tecnologias](#tecnologias)
   - [Aprendizados](#aprendizados)
   - [Desenvolvimento Contínuo](#desenvolvimento-contínuo)
-  - [Author](#author)
+  - [Autor](#autor)
 
 
 ## Visão Geral
@@ -71,7 +71,7 @@ Também prendi como criar classes para realizar estilizações que não são pos
 
 Meu próximo passo será desenvolver um projeto utilizando a biblioteca React, além de seguir aprimorando meus conhecimentos de HTML, CSS e JavaScript.
 
-## Author
+## Autor
 
 - Website - [Bruno Dias](https://github.com/bcdias)
 - Frontend Mentor - [@bcdias](https://www.frontendmentor.io/profile/bcdias)
