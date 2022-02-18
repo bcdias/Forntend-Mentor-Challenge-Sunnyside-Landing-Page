@@ -6,7 +6,7 @@ Essa é a minha solução para o challenge [Sunnyside agency landing page challe
 
 - [Visão Gera](#Visão Gera)
   - [O challenge](#o-challenge)
-  - [imagem](#screenshot)
+  - [imagem](#imagem)
   - [Links](#links)
   - [Meus processos](#meus-processos)
   - [Tecnologias](#tecnologias)
