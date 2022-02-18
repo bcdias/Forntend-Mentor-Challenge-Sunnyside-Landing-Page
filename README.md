@@ -4,7 +4,7 @@ Essa é a minha solução para o challenge [Sunnyside agency landing page challe
 
 ## Índice
 
-  - [Visão Gera](#visão-geral)
+  - [Visão GeraL](#visão-geral)
   - [O challenge](#o-challenge)
   - [imagem](#imagem)
   - [Links](#links)
