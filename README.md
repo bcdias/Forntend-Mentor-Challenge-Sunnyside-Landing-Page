@@ -1,37 +1,79 @@
-# Frontend Mentor - Sunnyside agency landing page
+# Frontend Mentor - Sunnyside agency landing page solution
 
-![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
-## Create a custom `README.md`
+Essa é a minha solução para o challenge [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). 
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+## Índice
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+- [Visão Gera](#Visão Gera)
+  - [O challenge](#o-challenge)
+  - [imagem](#screenshot)
+  - [Links](#links)
+  - [Meus processos](#meus-processos)
+  - [Tecnologias](#tecnologias)
+  - [Aprendizados](#aprendizados)
+  - [Desenvolvimento Contínuo](#desenvolvimento-contínuo)
+  - [Author](#author)
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
 
-## Submitting your solution
+## Visão Gera
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+O projeto consiste em uma landing page com layout responsivo com pequenas diferenças entre o layout da versão mobile e o layout da versão desktop, realizadas com o intuito de gerar uma melhor experiência para o usuário. 
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+O layout das versões mobile e desktop foram criados pela equipe do Frontend Mentor, tendo ficado sofre minha responsabilidade o a escolha das tecnologias a serem usadas para reproduzir os layouts e o desenvolvimento do código da página.
 
-## Sharing your solution
+### O challenge
 
-There are multiple places you can share your solution:
+Os usuários devem ser capazes de:
 
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+- Visualizar o layout otimizado para o tamanho de tela que estiver utilizando
+- Visualizar o estado de hover para todos os elemento interativos da tela
+- Visualizar o menu hamburger nas versão mobile e tablet 
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+### Imagem
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+![](./assets/images/screnshot/bcdias.github.io_Forntend-Mentor-Challenge-Sunnyside-Landing-Page_.png)
 
-## Got feedback for us?
+### Links
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+- URL da solução: [https://bcdias.github.io/Forntend-Mentor-Challenge-Sunnyside-Landing-Page/](https://bcdias.github.io/Forntend-Mentor-Challenge-Sunnyside-Landing-Page/)
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+## Meus processos 
+A primeira etapa do processo de elaboração da solução consistiu em analisar as imagens dos layouts que foram disponibilizadas, pela equipe do Frontend Mentor, com objetivo de analisar os elementos dos layouts e suas diferenças. 
 
-**Have fun building!** 🚀
+Após a primeira análise, decidi iniciar o projeto pela versão mobile e posteriormente fazer as adaptações da versão desktop. 
+
+Após decidir iniciar pela versão mobile, analisei novamente as imagens para olhar com mais atenção para os elementos dos layouts e decidir quais tecnologias utilizar para realizar o projeto. 
+
+Tecnologias definidas, é chegada hora de iniciar a criação do ambiente de desenvolvimento. Nesse processo foram criadas as pastas inicias do projeto, o CSS base com alguns estilos globais e com  lista de variáveis CSS. Nessa etapa também teve inicio a elaboração do HTML do projeto. 
+
+Após criar o CSS base e o HTML da página, eu iniciei a estilização da página. Para isso dividi a página em sessões (header, main, footer) e sub-sessões (nav-bar, depoimentos, etc), e fui realizando a estilização da página por partes. 
+A estilização da página seguiu um fluxo top-down e de tempos em tempos eu realizava a refatoração do código. 
+
+Os commits, com as atualizações do projeto, eram feitos sempre que eu finalizava alguma alteração importante no projeto. 
+
+### Tecnologias
+
+- HTML5
+- CSS 
+- Bootstrap
+- Flex-box
+
+### Aprendizados
+
+Aprendi a organizar meus processos antes de iniciar a elaboração do código, com objetivos de otimizar meu tempo através da criação de um fluxo de trabalho. 
+
+Durante a realização desse projeto aprendi criar páginas responsivascom Bootstrap utilizando as classes com  sm, md, lg, xl, xxl para criar estilos otimizados para diferentes tamanhos de telas.
+
+Também prendi como criar classes para realizar estilizações que não são possíveis com Bootstrap e como combinar as classes Bootstrap com as classes que criei. 
+
+
+### Desenvolvimento Contínuo
+
+Meu próximo passo será desenvolver um projeto utilizando a biblioteca React, além de seguir aprimorando meus conhecimentos de HTML, CSS e JavaScript.
+
+## Author
+
+- Website - [Bruno Dias](https://github.com/bcdias)
+- Frontend Mentor - [@bcdias](https://www.frontendmentor.io/profile/bcdias)
+- LinkedIn - [Bruno da Costa Dias](https://www.linkedin.com/in/brunodiasdev/)
+
