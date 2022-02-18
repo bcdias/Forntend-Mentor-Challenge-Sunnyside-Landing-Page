@@ -4,7 +4,7 @@ Essa é a minha solução para o challenge [Sunnyside agency landing page challe
 
 ## Índice
 
-- [Visão Gera](#Visão Gera)
+  - [Visão Gera](#visão-geral)
   - [O challenge](#o-challenge)
   - [imagem](#imagem)
   - [Links](#links)
@@ -15,7 +15,7 @@ Essa é a minha solução para o challenge [Sunnyside agency landing page challe
   - [Author](#author)
 
 
-## Visão Gera
+## Visão Geral
 
 O projeto consiste em uma landing page com layout responsivo com pequenas diferenças entre o layout da versão mobile e o layout da versão desktop, realizadas com o intuito de gerar uma melhor experiência para o usuário. 
 
